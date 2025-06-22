@@ -237,7 +237,6 @@ export default function HomePage() {
                     <a
                       href="https://ajkertakarrate.com/"
                       target="_blank"
-                      rel="noopener noreferrer"
                       className="text-blue-400 hover:text-blue-300 font-semibold hover:underline transition-colors duration-300"
                     >
                       আজকের টাকার রেট

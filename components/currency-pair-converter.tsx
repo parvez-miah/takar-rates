@@ -269,7 +269,6 @@ export default function CurrencyPairConverter({ fromCurrency, toCurrency, pairNa
                     <a
                       href="https://ajkertakarrate.com/"
                       target="_blank"
-                      rel="noopener noreferrer"
                       className="inline-block bg-white text-blue-600 font-bold text-xl px-8 py-3 rounded-full hover:bg-blue-50 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
                     >
                       আজকের টাকার রেট
