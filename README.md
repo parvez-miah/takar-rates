@@ -18,7 +18,7 @@ A blazing-fast currency converter web app built with **Next.js**, using exchange
 - 🇧🇩 Live exchange rates in Bangladeshi Taka (BDT)
 - 🔁 Real-time currency converter
 - ⚡ Built with Next.js for speed & SEO
-- 🌐 Clean, shareable URLs like `/usd-to-bdt-rate`
+- 🌐 Clean, shareable URLs like `/usd-to-bdt`
 - 📱 Mobile-first responsive UI
 - 🧭 Uses trusted source: **আজকের টাকার রেট**
 
