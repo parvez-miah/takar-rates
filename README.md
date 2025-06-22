@@ -28,7 +28,6 @@ A blazing-fast currency converter web app built with **Next.js**, using exchange
 
 - **Framework:** [Next.js](https://nextjs.org/)
 - **Styling:** Tailwind CSS
-- **Data Source:** [ajkertakarrate.com](https://ajkertakarrate.com)
 - **Deployment:** Vercel, Netlify
 
 ---
