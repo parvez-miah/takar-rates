@@ -309,14 +309,14 @@ export default function Component() {
             </p>
             <p className="text-sm text-gray-500">
               এক্সচেঞ্জ রেট প্রদানকারী:{" "}
-              <a
-                href="https://ajkertakarrate.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-600 hover:text-blue-800 font-semibold hover:underline transition-colors duration-300"
-              >
-                আজকের টাকার রেট
-              </a>
+<a
+  href="https://ajkertakarrate.com/"
+  target="_blank"
+  className="text-blue-600 hover:text-blue-800 font-semibold hover:underline transition-colors duration-300"
+>
+  আজকের টাকার রেট
+</a>
+
             </p>
           </div>
         </footer>
