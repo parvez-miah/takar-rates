@@ -65,5 +65,17 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-family: "Noto Sans Bengali", "Inter", sans-serif;
   }
+}
+
+/* Bengali text specific styling */
+.bengali-text {
+  font-family: "Noto Sans Bengali", sans-serif;
+}
+
+/* Ensure Bengali numerals display correctly */
+.bengali-number {
+  font-family: "Noto Sans Bengali", monospace;
+  font-variant-numeric: tabular-nums;
 }

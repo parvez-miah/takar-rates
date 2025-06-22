@@ -1,13 +1,9 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Tiro_Bangla } from "next/font/google"
+import { Inter } from "next/font/google"
 import "./globals.css"
 
-const tiroBangla = Tiro_Bangla({
-  subsets: ["bengali"],
-  weight: ["400", "500", "600", "700"],
-  display: "swap",
-})
+const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "আজকের টাকার রেট - সকল দেশের মুদ্রার হার | Ajker Takar Rate",
@@ -61,7 +57,6 @@ export const metadata: Metadata = {
   verification: {
     google: "your-google-verification-code",
   },
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -72,12 +67,18 @@ export default function RootLayout({
   return (
     <html lang="bn-BD" dir="ltr">
       <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <meta name="theme-color" content="#2563eb" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
-      <body className={tiroBangla.className}>
+      <body className={inter.className}>
         {children}
         <script
           type="application/ld+json"
